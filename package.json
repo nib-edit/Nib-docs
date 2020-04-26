@@ -1,0 +1,30 @@
+{
+  "name": "new-docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "9.3.5",
+    "nib-advance-image": "0.1.19",
+    "nib-collab-client": "0.2.3",
+    "nib-comment": "2.6.2",
+    "nib-converter": "2.4.2",
+    "nib-core": "2.6.7",
+    "nib-markdown-converter": "0.1.1",
+    "nib-table": "0.1.7",
+    "nib-track": "2.5.3",
+    "nib-ui": "2.4.9",
+    "nib-video": "0.1.16",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "@types/react": "^16.9.34",
+    "typescript": "^3.8.3"
+  }
+}
