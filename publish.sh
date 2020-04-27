@@ -2,6 +2,7 @@ git checkout master
 git checkout -b tmp-gh-pages
 rm .gitignore
 
+npm run build
 npm run export
 
 touch out/index.php
