@@ -75,6 +75,10 @@ export default () => {
             min-height: 75px;
             width: 100%;
           }
+          nav {
+            display: flex;
+            align-items: center;
+          }
         `}
       </style>
 

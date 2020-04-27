@@ -34,6 +34,7 @@ export default class InlineToolbar extends PureComponent {
                 },
               },
             }}
+            autoFocus
             defaultValue={data}
             styleConfig={{
               wrapper: () => ({
