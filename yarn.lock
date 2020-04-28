@@ -3777,13 +3777,12 @@ nib-table@0.1.7:
   dependencies:
     axios "^0.19.0"
 
-nib-track@2.5.3:
-  version "2.5.3"
-  resolved "https://registry.yarnpkg.com/nib-track/-/nib-track-2.5.3.tgz#a275c7ff16165cae94229391eee48ebcc7cadac9"
-  integrity sha512-VcyjFEV0Ag4y/bzopT+G5ELE0QiCKFmdPnghN0rdN2AAVAlwWQGr4041EyZCU4G7cQHErDmboCu4MrVot0hd4Q==
+nib-track@2.5.4:
+  version "2.5.4"
+  resolved "https://registry.yarnpkg.com/nib-track/-/nib-track-2.5.4.tgz#10b6ec1ab0a62f1f4678d468fb58199cc49bb11c"
+  integrity sha512-XhbIxFPH6C9i4b9faygKSbV10PQy3d6Zimyh2CRB3vaSS0JMSIptz37rQq+Likag7fsOTHH1uILi7goj4OVf1Q==
   dependencies:
     axios "^0.19.0"
-    prosemirror-transform "^1.0.0"
 
 nib-ui-select@0.0.1:
   version "0.0.1"

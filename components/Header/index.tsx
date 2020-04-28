@@ -39,6 +39,14 @@ export default () => {
           <Link href="/license">
             <a>License</a>
           </Link>
+          <a
+            href="https://github.com/nib-edit"
+            target="_blank"
+            className="github_wrapper"
+          >
+            <img src="github.png" />
+            Github
+          </a>
         </nav>
       </div>
 
@@ -68,7 +76,7 @@ export default () => {
           }
           .menu > a {
             color: white;
-            margin: 40px;
+            margin: 0 40px;
             text-decoration: none;
           }
           .padder {
@@ -78,6 +86,14 @@ export default () => {
           nav {
             display: flex;
             align-items: center;
+          }
+          .github_wrapper > img {
+            margin-right: 4px;
+            width: 24px;
+          }
+          .github_wrapper {
+            align-items: center;
+            display: flex;
           }
         `}
       </style>
