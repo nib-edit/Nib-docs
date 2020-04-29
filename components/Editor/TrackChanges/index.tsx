@@ -23,7 +23,7 @@ export default class TrackChanges extends PureComponent {
 
   state = {
     cmdKeyPressed: false,
-    name: 'Anonymous user',
+    username: 'Anonymous user',
     trackState: undefined,
   };
 
@@ -45,18 +45,18 @@ export default class TrackChanges extends PureComponent {
   }
 
   updateName = (evt: ChangeEvent) =>
-    this.setState({ name: (evt.target as HTMLInputElement).value });
+    this.setState({ username: (evt.target as HTMLInputElement).value });
 
   doCommit = () => {
-    const { name } = this.state;
-    (this.tracker as any).doCommit({ username: name, userid: this.userid });
+    const { username } = this.state;
+    (this.tracker as any).doCommit({ username, userid: this.userid });
     this.updateTrackedState();
   };
 
   revertCommit = (commit) => {
-    const { name } = this.state;
+    const { username } = this.state;
     (this.tracker as any).revertCommit(commit.id, {
-      username: name,
+      username,
       userid: this.userid,
     });
     this.updateTrackedState();
@@ -86,7 +86,7 @@ export default class TrackChanges extends PureComponent {
   };
 
   render() {
-    const { trackState, name } = this.state;
+    const { trackState, username } = this.state;
     return (
       <div>
         <input
@@ -94,7 +94,7 @@ export default class TrackChanges extends PureComponent {
           className="nib-track_msg"
           onChange={this.updateName}
           placeholder="Enter user name"
-          value={name}
+          value={username}
         />
         <div className="nib-track-wrapper">
           <div>
