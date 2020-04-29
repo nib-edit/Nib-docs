@@ -23,9 +23,11 @@ export default () => {
           </p>
           <p>
             Nib is built using{' '}
-            <a href="https://prosemirror.net/">Prosemirror</a>, which is an
-            exceptionally good text editing framework. Nib uses React as
-            underlyging frontend framework.
+            <a href="https://prosemirror.net/" target="_blank">
+              Prosemirror
+            </a>
+            , which is an exceptionally good text editing framework. Nib uses
+            React as underlyging frontend framework.
           </p>
           <p>
             Nib not only has good rich text editing capabilities but also
