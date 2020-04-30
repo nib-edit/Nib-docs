@@ -14,12 +14,7 @@ const styleConfig = {
   }),
 };
 
-interface FullPageProps {
-  nodata?: boolean;
-  height?: string;
-}
-
-export default class FullPage extends PureComponent<FullPageProps> {
+export default class FullPage extends PureComponent {
   state = {
     Editor: undefined,
     visible: false,

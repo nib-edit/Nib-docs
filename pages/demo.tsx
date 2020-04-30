@@ -6,6 +6,7 @@ import FullPageEditor from '../components/Editor/FullPage';
 import InlineToolbarEditor from '../components/Editor/InlineToolbar';
 import ThemedEditor from '../components/Editor/Themed';
 import TrackChangesEditor from '../components/Editor/TrackChanges';
+import HtmlConverterEditor from '../components/Editor/HtmlConverter';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -51,11 +52,17 @@ export default () => {
           <p>Click button to see full page editor.</p>
           <FullPageEditor />
         </div>
-        <div id="word_style_editor">
-          <h2>7. Word style editor</h2>
-        </div>
         <div id="html_conversion_editor">
-          <h2>8. Editor with HTML conversion of content</h2>
+          <h2>7. Editor with HTML conversion of content</h2>
+          <p>
+            Enter HTML content in textarea and click Update Editor button to
+            update editor content. Make any change in editor to see change in
+            generated HTML content.
+          </p>
+          <HtmlConverterEditor />
+        </div>
+        <div id="word_style_editor">
+          <h2>8. Word style editor</h2>
         </div>
         <div id="markdown_conversion_editor">
           <h2>9. Editor with markdown conversion</h2>
