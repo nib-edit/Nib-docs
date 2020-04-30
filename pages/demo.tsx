@@ -94,7 +94,7 @@ export default () => {
         }
         p {
           font-size: 16px;
-          margin: 12px 0;
+          margin: 20px 0;
         }
       `}</style>
     </>
