@@ -24,11 +24,11 @@ export default () => {
           <Link href="/">
             <a>Home</a>
           </Link>
-          <Link href="/demo">
-            <a>Demo</a>
-          </Link>
           <Link href="/features">
             <a>Features</a>
+          </Link>
+          <Link href="/demo">
+            <a>Demo</a>
           </Link>
           <Link href="/plugins">
             <a>Plugins</a>
