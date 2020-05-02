@@ -3715,10 +3715,10 @@ nib-converter@2.4.2:
     nib-schema "^2.4.1"
     prosemirror-model "^1.0.0"
 
-nib-core@2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/nib-core/-/nib-core-2.7.1.tgz#6cf9d59a632843f39397904221be1e854cb4a75f"
-  integrity sha512-sk//PPj0P5NTM5vnv9q3QmQFadilZb4rA7bim4Hl19bheOxGQTfd3cqc88i7VVS8UgfHk+YtAUe9c/bOcuW/fg==
+nib-core@2.7.2:
+  version "2.7.2"
+  resolved "https://registry.yarnpkg.com/nib-core/-/nib-core-2.7.2.tgz#425f49efd45eb0b2c0a5a22af74d1a7587fdf055"
+  integrity sha512-UeXSH9h9Foq8zh9TRMshgLweYK1hnQtmtjsDm8q75W1V9+o0nU9GTf3P+h0RopsBMoWye0Dps5c8NSwlI4LgDw==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"

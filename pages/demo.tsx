@@ -7,6 +7,7 @@ import InlineToolbarEditor from '../components/Editor/InlineToolbar';
 import ThemedEditor from '../components/Editor/Themed';
 import TrackChangesEditor from '../components/Editor/TrackChanges';
 import HtmlConverterEditor from '../components/Editor/HtmlConverter';
+import MarkdownConverterEditor from '../components/Editor/MarkdownConverter';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -66,6 +67,7 @@ export default () => {
         </div>
         <div id="markdown_conversion_editor">
           <h2>9. Editor with markdown conversion</h2>
+          <MarkdownConverterEditor />
         </div>
         <div id="custom_option_editor">
           <h2>10. Custom editor option</h2>
