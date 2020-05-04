@@ -50,7 +50,6 @@ export default () => {
           </li>
           <li>
             <h3>Advance Image</h3>
-            <p>Add a table and click it to see image updating options.</p>
             <AdvanceImageEditor />
           </li>
           <li>
