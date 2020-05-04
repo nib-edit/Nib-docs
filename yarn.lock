@@ -3410,7 +3410,7 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-markdown-it@10.0.0, markdown-it@^10.0.0:
+markdown-it@10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-10.0.0.tgz#abfc64f141b1722d663402044e43927f1f50a8dc"
   integrity sha512-YWOP1j7UbDNz+TumYP1kpwnP0aEa711cJjrAQrzd0UXlbJfc5aAq0F/PZHjiioqDC1NKgvIMX+o+9Bk7yuM2dg==
@@ -3745,18 +3745,15 @@ nib-embed@2.1.6:
   dependencies:
     axios "^0.19.0"
 
-nib-markdown-converter@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/nib-markdown-converter/-/nib-markdown-converter-0.1.1.tgz#aacac78c3ccb20d0f14d9792a8a051993f4cc689"
-  integrity sha512-q0Cm1BAUea51n5trG2yw504anXdjTB00YigYmhcDw5RVARkshsPr/+PEjq58CrRrSs6YirgVAIJQJgCYRq/5jg==
+nib-markdown-converter@0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/nib-markdown-converter/-/nib-markdown-converter-0.1.2.tgz#811a2e94a87f94960c5df203a3b68fef34e8c25b"
+  integrity sha512-gUTCE3ZEmAVqbJp1ew+E0yL1H1+JaEuJv0d0kfOIIbDxku6AfXOQjFDL2zfjAXElv2AIQK3wK1+4Gtwdbuqe7Q==
   dependencies:
     axios "^0.19.0"
     markdown-it "10.0.0"
-    nib-schema "^2.4.2"
-    prosemirror-markdown "1.4.4"
-    prosemirror-model "^1.0.0"
 
-nib-schema@2.4.5, nib-schema@^2.4.1, nib-schema@^2.4.2:
+nib-schema@2.4.5, nib-schema@^2.4.1:
   version "2.4.5"
   resolved "https://registry.yarnpkg.com/nib-schema/-/nib-schema-2.4.5.tgz#caf9283b881997b1f2a0a65d2217f4eeea1134d3"
   integrity sha512-Q8X6p6VnwMh4O5A/tkZBlqfiznsopLbkMAuvK0LJ+QQ6XAGOb0L6ZX7cnoHFw/RX156RByEuTzdfzZJWh6pPlA==
@@ -4567,14 +4564,6 @@ prosemirror-keymap@^1.0.1, prosemirror-keymap@^1.1.2:
   dependencies:
     prosemirror-state "^1.0.0"
     w3c-keyname "^2.2.0"
-
-prosemirror-markdown@1.4.4:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/prosemirror-markdown/-/prosemirror-markdown-1.4.4.tgz#5bed6ab0657a4aac6683d14eae3571dab2ef5d43"
-  integrity sha512-qh6d9WKjahLSlV4V7PZNJifp+fLKrOFV/ZqajQ15Labqh49Zs/TGGk10SkT6n+ROTNIHHU/P5oBi5ei7BvwmuA==
-  dependencies:
-    markdown-it "^10.0.0"
-    prosemirror-model "^1.0.0"
 
 prosemirror-model@^1.0.0, prosemirror-model@^1.1.0, prosemirror-model@^1.6.2, prosemirror-model@^1.8.1:
   version "1.9.1"

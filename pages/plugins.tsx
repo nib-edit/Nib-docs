@@ -4,6 +4,10 @@ import Link from 'next/link';
 import ConfigurableEditor from '../components/Editor/Configurable';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
+import TableEditor from '../components/PremiumPlugins/Table';
+import AdvanceImageEditor from '../components/PremiumPlugins/AdvanceImage';
+import VideoEditor from '../components/PremiumPlugins/Video';
+import TrackChangesEditor from '../components/PremiumPlugins/TrackChanges';
 
 export default () => {
   return (
@@ -38,12 +42,20 @@ export default () => {
         <ol>
           <li>
             <h3>Table</h3>
+            <p>
+              Table is supported, also table updating options like add or remove
+              column/row/header is also present.
+            </p>
+            <TableEditor />
           </li>
           <li>
             <h3>Advance Image</h3>
+            <p>Add a table and click it to see image updating options.</p>
+            <AdvanceImageEditor />
           </li>
           <li>
             <h3>Video</h3>
+            <VideoEditor />
           </li>
           <li>
             <h3>Custom Plugin</h3>
@@ -53,6 +65,7 @@ export default () => {
           </li>
           <li>
             <h3>Track Changes</h3>
+            <TrackChangesEditor />
           </li>
         </ol>
         <h2>Premium plugins in beta</h2>
