@@ -150,3 +150,7 @@ export default class CollaborativeEditor extends PureComponent {
     );
   }
 }
+
+/**
+ * Create generic code styles.
+ */
