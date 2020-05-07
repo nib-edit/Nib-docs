@@ -8,6 +8,7 @@ import ThemedEditor from '../components/Editor/Themed';
 import TrackChangesEditor from '../components/Editor/TrackChanges';
 import HtmlConverterEditor from '../components/Editor/HtmlConverter';
 import MarkdownConverterEditor from '../components/Editor/MarkdownConverter';
+import CollaborativeEditor from '../components/Editor/Collaborative';
 
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -74,6 +75,7 @@ export default () => {
         </div>
         <div id="collaborative_editor">
           <h2>11. Collaborative editor</h2>
+          <CollaborativeEditor />
         </div>
       </main>
 
