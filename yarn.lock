@@ -3722,10 +3722,10 @@ nib-converter@2.4.4:
     nib-schema "^2.4.6"
     prosemirror-model "^1.0.0"
 
-nib-core@2.7.5:
-  version "2.7.5"
-  resolved "https://registry.yarnpkg.com/nib-core/-/nib-core-2.7.5.tgz#1be2d2a103bc1dd2af31e1686656e77671a53a44"
-  integrity sha512-sM2gcagl+MfPCcwwO3DfTnTIogXchL1l8sQ3v78mvEu24tN2Ifo4yq8n+zXs391Us8yRChAG6FkJ8Gwj13r/Ng==
+nib-core@2.7.6:
+  version "2.7.6"
+  resolved "https://registry.yarnpkg.com/nib-core/-/nib-core-2.7.6.tgz#63c5915984d5883dc4f9f4c856572ca029883a02"
+  integrity sha512-Lp9GR/E/26nw5JQW0IYbVfXJKH7AJyOUkn3Avqx/HudhmAT1Y1RPNs79nSyJ4HR0+4BCjNlIjG7JrKGJl+BN4g==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
@@ -3733,7 +3733,7 @@ nib-core@2.7.5:
     emotion-theming "^10.0.14"
     nib-embed "2.1.6"
     nib-schema "2.4.6"
-    nib-ui "2.4.10"
+    nib-ui "2.4.11"
     nib-ui-select "0.0.1"
     prosemirror-commands "^1.0.7"
     prosemirror-history "^1.0.3"
@@ -3765,10 +3765,10 @@ nib-schema@2.4.6, nib-schema@^2.4.6:
   resolved "https://registry.yarnpkg.com/nib-schema/-/nib-schema-2.4.6.tgz#deb6dbaffde44f35ac25e9fc3476961b4ff7735b"
   integrity sha512-UUqEqyAaUAAo/M5nABm9YctnTZnTNJSskftHcz2uvF7g0i+9kdaCIxT87ved6Z9E0xVRZsH74wgTHfUZoFSc4Q==
 
-nib-table@0.1.10:
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/nib-table/-/nib-table-0.1.10.tgz#9b989f6ca5c49d9030156b630ab6e08e13b2c0f1"
-  integrity sha512-IK2xc0StGMv4gob10GD6XQYkm9YPh0mLwZdLtwJUhsHneJoAViLxC1N/D6ZSXlULIzwC3nsy4bFNlQMRyxfyoQ==
+nib-table@0.1.12:
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/nib-table/-/nib-table-0.1.12.tgz#7285e5b828c449f0bb3c34467d5410e5932256bf"
+  integrity sha512-LlxpWpoZYI3Dl1WBQ9B7Ok2C6Ncs7abmmBNino21uXP3ZO0bH2hrYdGbZJUcWtoG7RAXZOEBdXPk/rFiQU16xw==
   dependencies:
     axios "^0.19.0"
 
@@ -3786,10 +3786,10 @@ nib-ui-select@0.0.1:
   dependencies:
     react-select "^3.0.4"
 
-nib-ui@2.4.10:
-  version "2.4.10"
-  resolved "https://registry.yarnpkg.com/nib-ui/-/nib-ui-2.4.10.tgz#96254d682bceb9add73baf5c249ae3d18b5db016"
-  integrity sha512-pzN2CS0TFsNAkE4qDc85FqjrzC1IZfhrHLNxoB0Py5tJ9qZDB7j9vEvYY/qdcjjpt5Tu+BCpQBm7F2oFEolQrg==
+nib-ui@2.4.11:
+  version "2.4.11"
+  resolved "https://registry.yarnpkg.com/nib-ui/-/nib-ui-2.4.11.tgz#99db4e5741a08189f797d9ebddeac3f497646016"
+  integrity sha512-eP+b9lz8yp+vnQ4UjBJko8rGHf4ijEGzbF0Ws/jVhBR+FLaby2KheUohbkMHHdXw9KEWzyevCx5dFWB6qeyeFQ==
 
 nib-ui@2.4.6:
   version "2.4.6"
