@@ -3765,10 +3765,10 @@ nib-schema@2.4.6, nib-schema@^2.4.6:
   resolved "https://registry.yarnpkg.com/nib-schema/-/nib-schema-2.4.6.tgz#deb6dbaffde44f35ac25e9fc3476961b4ff7735b"
   integrity sha512-UUqEqyAaUAAo/M5nABm9YctnTZnTNJSskftHcz2uvF7g0i+9kdaCIxT87ved6Z9E0xVRZsH74wgTHfUZoFSc4Q==
 
-nib-table@0.1.13:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/nib-table/-/nib-table-0.1.13.tgz#a0ea87b348b5bd267dd3e6f246a080d62f626e75"
-  integrity sha512-x360bPXAv3q8hm/qcNioXzWTX2eVrJ4TjsgXN00y/2PfKHh71a97k4cwVZ8VCrZ6GdIfjTp+XDXtrv7DgfldnQ==
+nib-table@0.1.14:
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/nib-table/-/nib-table-0.1.14.tgz#32b67e924c6b8e3d977c1ca267b19cb9bfb7b3f8"
+  integrity sha512-jWMIVup7O/NtLIFfX0+cesNvdRgGVLm2lVBbkQOZr8iY8MIdwK4NM2hm8n+2XznNXsvPjVavoYDbewHC8bYw+A==
   dependencies:
     axios "^0.19.0"
 
