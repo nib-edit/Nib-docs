@@ -89,6 +89,7 @@ export default class TrackChanges extends PureComponent {
     const { trackState, username } = this.state;
     return (
       <div>
+        Username:{' '}
         <input
           style={{ marginBottom: 10 }}
           className="nib-track_msg"

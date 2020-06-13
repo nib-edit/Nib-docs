@@ -2369,9 +2369,9 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     stream-shift "^1.0.0"
 
 electron-to-chromium@^1.3.322, electron-to-chromium@^1.3.413:
-  version "1.3.468"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.468.tgz#7ff3e162e4ca91fd972c67dd51b00e7e421ceba2"
-  integrity sha512-+KAppdklzPd5v8nLOvtDiD/S67mCT9gFRAvngYe8zuFy9azHhT9vWWH6WEPPCcyjQ1JMYVgqbN29yZ0paqxsEw==
+  version "1.3.470"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.470.tgz#07ccfd481b96709f4ac20bb74bccf59705a41ced"
+  integrity sha512-SQzHdpUUmTSiIYwMFZ3P3271VdRxfdHqh2GoBA7sqeaz4SN3UlTA22fC+r9BHu8FpB0oI7f8pAxzm75O/kBc3w==
 
 elliptic@^6.0.0, elliptic@^6.5.2:
   version "6.5.2"
@@ -3720,14 +3720,12 @@ nib-collab-client@0.2.4:
     axios "^0.19.0"
     prosemirror-collab "^1.2.2"
 
-nib-comment@2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/nib-comment/-/nib-comment-2.6.2.tgz#5b981a0a9085cac41b4e747ea00a46cd517c042a"
-  integrity sha512-hdtvFfpC4DOeVa8t8YELetUfGrM5i8yejGebKK6bPdiDHwL3ZLRQYUnEMQ3EjtBJQtPi0Xbnf3yC3Y82gLuRCg==
+nib-comment@2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/nib-comment/-/nib-comment-2.6.3.tgz#031aef4aee0f83c3a08c8791b7ce4d76135900f8"
+  integrity sha512-VShtw+bkCfOugBIYAneaWG+4MxsmRYmTOejRi5rTcA8IyAlUdoGNhHVYnOChczT+w9r+7DCbvNVPebYfx0AC1A==
   dependencies:
     axios "^0.19.0"
-    nib-ui "2.4.6"
-    prosemirror-transform "^1.0.0"
 
 nib-converter@2.4.5:
   version "2.4.5"
@@ -3805,13 +3803,6 @@ nib-ui@2.4.11:
   version "2.4.11"
   resolved "https://registry.yarnpkg.com/nib-ui/-/nib-ui-2.4.11.tgz#99db4e5741a08189f797d9ebddeac3f497646016"
   integrity sha512-eP+b9lz8yp+vnQ4UjBJko8rGHf4ijEGzbF0Ws/jVhBR+FLaby2KheUohbkMHHdXw9KEWzyevCx5dFWB6qeyeFQ==
-
-nib-ui@2.4.6:
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/nib-ui/-/nib-ui-2.4.6.tgz#17a38fe4ba37a2b707b622a2898d370d9aa7c9ad"
-  integrity sha512-tS82hRQk/OPaDMfmcpg6di5rY7O7aBWMh6HC0QAkY3RzTN3wdHf7f7BEVR5i2FniyZhnhTzmtgFUKt9ysbqUTQ==
-  dependencies:
-    react-select "^3.0.4"
 
 nib-video@0.1.16:
   version "0.1.16"

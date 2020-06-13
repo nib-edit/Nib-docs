@@ -29,7 +29,7 @@ export default () => {
           <li>Support for almost all browsers and devices</li>
           <li>
             Multiple rich text styling options like bold, italic, underline,
-            strike, subscript, superscript, textfill, color, etc
+            strike, subscript, superscript, text color, filll color, etc
           </li>
           <li>
             Support for different block types paragraph, h1 - h6, blockquote etc
@@ -41,10 +41,7 @@ export default () => {
           <li>
             Support for customized display - full page, word like display, etc
           </li>
-          <li>
-            Editor keeps tracks of changes to document and allow undo and redo
-            of changes.
-          </li>
+          <li>Allow undo and redo changes.</li>
           <li>
             Help menu that display supported formatting options and their
             keyboard shortcuts

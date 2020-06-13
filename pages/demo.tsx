@@ -33,6 +33,7 @@ export default () => {
             Click an area in editor or hover a commit record to highlight the
             change. Enter from keyboard <code>cmd-s</code> or click{' '}
             <code>Save</code> button to record the changes made in editor.{' '}
+            Username added to commits can be changed in username input box.
           </p>
           <TrackChangesEditor />
         </div>
@@ -40,8 +41,11 @@ export default () => {
           <h2>4. Editor with option to add comments</h2>
           <p>
             Select an area of text to add comment to it, or click an existing
-            comment to edit its details. Comment added by other users can only
-            be viewed and not edited, change userid to see that.
+            comment to edit its details. With each comment metadata like userid,
+            username is also saved.
+            <br />
+            Comment added by other users can only be viewed and not edited,
+            change userid to see that in action.
           </p>
           <CommentEditor />
         </div>

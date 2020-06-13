@@ -18,15 +18,15 @@ export default () => {
         <div className="about-editor">
           <p>
             Nib is light weight and elegant browser based wysiwyg editor.
-            Despite various available browser based wysiwyg editing solutions,
-            wysiwyg editing in browsers continue to be very challenging area.
+            Despite various available solutions, wysiwyg editing in browsers
+            continue to be very challenging area.
           </p>
           <p>
             Nib is built using{' '}
             <a href="https://prosemirror.net/" target="_blank">
               Prosemirror
             </a>
-            , which is an exceptionally good text editing framework. Nib uses
+            , which is an a great text editing framework for browsers. Nib uses
             React as underlyging frontend framework.
           </p>
           <p>
