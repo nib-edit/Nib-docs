@@ -11,12 +11,16 @@ const styleConfig = {
   editor: () => ({
     minHeight: '750px',
     width: '60%',
-    margin: '75px auto',
+    margin: '175px auto 75px',
     padding: '40px',
     boxShadow: '1px 2px 5px 2px #E0E0E0',
   }),
   toolbar: {
     top: () => ({
+      position: 'fixed',
+      width: '100%',
+      zIndex: '10',
+      top: '50px',
       boxShadow: '0px 5px 5px 0px #E0E0E0',
     }),
   },
@@ -91,6 +95,9 @@ export default class GoogleDocsStyle extends PureComponent {
               font-size: 24px;
               font-weight: 400;
               padding: 10px;
+              position: fixed;
+              width: 100%;
+              z-index: 10;
             }
           `}
         </style>
