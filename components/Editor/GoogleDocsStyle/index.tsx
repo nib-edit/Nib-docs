@@ -10,7 +10,7 @@ const styleConfig = {
   }),
   editor: () => ({
     minHeight: '750px',
-    width: '75%',
+    width: '60%',
     margin: '75px auto',
     padding: '40px',
     boxShadow: '1px 2px 5px 2px #E0E0E0',
