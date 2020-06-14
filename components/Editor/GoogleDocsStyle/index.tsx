@@ -63,7 +63,7 @@ export default class GoogleDocsStyle extends PureComponent {
               position: fixed;
               top: 7px;
               right: 10px;
-              z-index: 10;
+              z-index: 15;
             }
             button {
               background-color: #0000e4;
