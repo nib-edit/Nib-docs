@@ -3,6 +3,7 @@ import * as React from 'react';
 import CommentEditor from '../components/Editor/Comment';
 import FullFeaturedEditor from '../components/Editor/FullFeatured';
 import FullPageEditor from '../components/Editor/FullPage';
+import GoogleDocsStyleEditor from '../components/Editor/GoogleDocsStyle';
 import InlineToolbarEditor from '../components/Editor/InlineToolbar';
 import ThemedEditor from '../components/Editor/Themed';
 import TrackChangesEditor from '../components/Editor/TrackChanges';
@@ -68,7 +69,9 @@ export default () => {
           <HtmlConverterEditor />
         </div>
         <div id="word_style_editor">
-          <h2>8. Word style editor</h2>
+          <h2>8. Google docs style editor</h2>
+          <p>Click button to see docs style editor.</p>
+          <GoogleDocsStyleEditor />
         </div>
         <div id="markdown_conversion_editor">
           <h2>9. Editor with markdown conversion</h2>
