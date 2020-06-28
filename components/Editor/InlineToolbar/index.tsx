@@ -23,12 +23,12 @@ export default class InlineToolbar extends PureComponent {
           <Editor
             config={{
               plugins: {
-                options: 'block inline link',
+                options: 'block inline',
               },
               toolbar: {
                 options: 'inline',
                 inline: {
-                  options: 'block inline link',
+                  options: 'block inline',
                   block: { options: 'p h1 h2', grouped: false },
                   inline: { options: 'strong em' },
                 },

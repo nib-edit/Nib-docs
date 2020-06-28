@@ -15,6 +15,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 
 export default () => {
+  console.log('re-render')
   return (
     <>
       <Header />
