@@ -12,7 +12,7 @@ export default () => {
       <Header />
 
       <main className="main-section">
-        <div>This page is under construction :)</div>
+        <div style={{height: 300}}>This page is under construction.</div>
       </main>
 
       <Footer />

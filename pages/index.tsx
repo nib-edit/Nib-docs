@@ -15,6 +15,9 @@ export default () => {
             A wysiwyg editor built using React and Prosemirror
           </p>
         </div>
+        <div className="editor-wrapper">
+          <FullFeaturedEditor />
+        </div>
         <div className="about-editor">
           <p>
             Nib is light weight and elegant browser based wysiwyg editor.
@@ -36,11 +39,7 @@ export default () => {
             more...
           </p>
         </div>
-        <div className="editor-wrapper">
-          <FullFeaturedEditor />
-        </div>
       </main>
-
       <Footer />
 
       <style jsx>
@@ -54,7 +53,7 @@ export default () => {
             align-items: center;
             justify-content: center;
 
-            height: 490px;
+            height: 300px;
             width: 100%;
           }
           .title {
@@ -70,12 +69,13 @@ export default () => {
           }
           .editor-wrapper {
             width: 65%;
-            margin: 0 auto 200px;
+            margin: 80px auto 100px;
           }
           .about-editor {
             line-height: 1.5;
-            margin: 100px auto 200px;
+            margin: 0 auto 100px;
             text-align: center;
+            font-weight: normal;
             width: 50%;
           }
           .about-editor a,

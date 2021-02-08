@@ -24,7 +24,7 @@ export default () => {
           Nib is comparatively light-weight, plugins are used to add
           functionality on top of it.
         </p>
-        <p>Standard features of Nib offered by open source library are:</p>
+        <p>Features of Nib offered by open source library are:</p>
         <ol>
           <li>Support for almost all browsers and devices</li>
           <li>
@@ -36,7 +36,12 @@ export default () => {
           </li>
           <li>Support for hyperlinks</li>
           <li>Support for nested ordered and unordered lists</li>
+          <li>
+            Table with advance options like add/remove column/row, resize
+            columns, etc
+          </li>
           <li>Support for images</li>
+          <li>Support for displaying video from sources like Youtube or Vimeo</li>
           <li>Support for inline mode with floating toolbar</li>
           <li>
             Support for customized display - full page, word like display, etc
@@ -59,15 +64,8 @@ export default () => {
 
         <ol>
           <li>
-            Table with advance options like add/remove column/row, resize
-            columns, etc
-          </li>
-          <li>
             Advance images with options like wrapping, aligning, re-sizing or
             linking images
-          </li>
-          <li>
-            Support for displaying video from sources like Youtube or Vimeo
           </li>
           <li>Flexibility to add own plugin</li>
           <li>Convert prosemirror JSON to and from markdown</li>

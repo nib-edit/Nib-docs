@@ -5,7 +5,6 @@ export default () => {
     <>
       <footer className="footer-section">
         <a href="mailto:contact@nibedit.com">Contact</a>
-        <a href="mailto:support@nibedit.com">Support</a>
         <a
           href="https://github.com/nib-edit"
           target="_blank"
@@ -26,7 +25,7 @@ export default () => {
             align-items: center;
 
             padding: 10px;
-            height: 320px;
+            height: 160px;
             width: 100%;
           }
           .footer-section > a {

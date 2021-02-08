@@ -30,9 +30,6 @@ export default () => {
           <Link href="/demo">
             <a>Demo</a>
           </Link>
-          <Link href="/plugins">
-            <a>Plugins</a>
-          </Link>
           <Link href="/docs">
             <a>Docs</a>
           </Link>
@@ -56,15 +53,15 @@ export default () => {
         {`
           .menu-section {
             background-color: #0000e4;
-            // border-bottom: 1px solid #4a26fd;
+            box-shadow: 0px 1px 1px #0000e4;
             color: white;
 
             display: flex;
             justify-content: space-between;
 
-            padding: 10px;
+            padding: 4px;
             position: fixed;
-            height: 75px;
+            height: 50px;
             width: 100%;
             z-index: 2;
           }
@@ -80,7 +77,7 @@ export default () => {
             text-decoration: none;
           }
           .padder {
-            min-height: 75px;
+            min-height: 50px;
             width: 100%;
           }
           nav {
