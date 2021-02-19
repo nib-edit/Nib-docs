@@ -1,21 +1,21 @@
-import * as React from 'react';
+import * as React from "react";
 
-import CommentEditor from '../components/Editor/Comment';
-import FullFeaturedEditor from '../components/Editor/FullFeatured';
-import FullPageEditor from '../components/Editor/FullPage';
-import GoogleDocsStyleEditor from '../components/Editor/GoogleDocsStyle';
-import InlineToolbarEditor from '../components/Editor/InlineToolbar';
-import ThemedEditor from '../components/Editor/Themed';
-import TrackChangesEditor from '../components/Editor/TrackChanges';
-import HtmlConverterEditor from '../components/Editor/HtmlConverter';
-import MarkdownConverterEditor from '../components/Editor/MarkdownConverter';
-import CollaborativeEditor from '../components/Editor/Collaborative';
+import CommentEditor from "../components/Editor/Comment";
+import FullFeaturedEditor from "../components/Editor/FullFeatured";
+import FullPageEditor from "../components/Editor/FullPage";
+import GoogleDocsStyleEditor from "../components/Editor/GoogleDocsStyle";
+import InlineToolbarEditor from "../components/Editor/InlineToolbar";
+import ThemedEditor from "../components/Editor/Themed";
+import TrackChangesEditor from "../components/Editor/TrackChanges";
+import HtmlConverterEditor from "../components/Editor/HtmlConverter";
+import MarkdownConverterEditor from "../components/Editor/MarkdownConverter";
+import CollaborativeEditor from "../components/Editor/Collaborative";
 
-import Footer from '../components/Footer';
-import Header from '../components/Header';
+import Footer from "../components/Footer";
+import Header from "../components/Header";
 
 export default () => {
-  console.log('re-render')
+  console.log("re-render");
   return (
     <>
       <Header />
@@ -33,8 +33,8 @@ export default () => {
           <h2>3. Editor with option to track changes</h2>
           <p>
             Click an area in editor or hover a commit record to highlight the
-            change. Enter from keyboard <code>cmd-s</code> or click{' '}
-            <code>Save</code> button to record the changes made in editor.{' '}
+            change. Enter from keyboard <code>cmd-s</code> or click{" "}
+            <code>Save</code> button to record the changes made in editor.{" "}
             Username added to commits can be changed in username input box.
           </p>
           <TrackChangesEditor />
@@ -60,7 +60,7 @@ export default () => {
           <p>Click button to see full page editor.</p>
           <FullPageEditor />
         </div>
-        <div id="html_conversion_editor">
+        {/* <div id="html_conversion_editor">
           <h2>7. Editor with HTML conversion of content</h2>
           <p>
             Enter HTML content in textarea and click Update Editor button to
@@ -68,21 +68,21 @@ export default () => {
             generated HTML content.
           </p>
           <HtmlConverterEditor />
-        </div>
+        </div> */}
         <div id="word_style_editor">
-          <h2>8. Google docs style editor</h2>
+          <h2>7. Google docs style editor</h2>
           <p>Click button to see docs style editor.</p>
           <GoogleDocsStyleEditor />
         </div>
         <div id="markdown_conversion_editor">
-          <h2>9. Editor with markdown conversion</h2>
+          <h2>8. Editor with markdown conversion</h2>
           <MarkdownConverterEditor />
         </div>
         <div id="custom_option_editor">
-          <h2>10. Custom editor option</h2>
+          <h2>9. Custom editor option</h2>
         </div>
         <div id="collaborative_editor">
-          <h2>11. Collaborative editor</h2>
+          <h2>10. Collaborative editor</h2>
           <CollaborativeEditor />
         </div>
       </main>

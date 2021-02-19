@@ -1382,6 +1382,13 @@ axios@^0.19.0:
   dependencies:
     follow-redirects "1.5.10"
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 babel-code-frame@^6.22.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -2683,6 +2690,11 @@ follow-redirects@1.5.10:
   dependencies:
     debug "=3.1.0"
 
+follow-redirects@^1.10.0:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.2.tgz#dd73c8effc12728ba5cf4259d760ea5fb83e3147"
+  integrity sha512-6mPTgLxYm3r6Bkkg0vNM0HTjfGrOEtsfbhagQvbxDEsEkpNhw582upBaoRZylzen6krEmxXJgt9Ju6HiI4O7BA==
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -3716,31 +3728,30 @@ nib-comment@2.6.3:
   dependencies:
     axios "^0.19.0"
 
-nib-converter@2.4.5:
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/nib-converter/-/nib-converter-2.4.5.tgz#6b7f114e42a8b95e31d4bba441745f2291de37aa"
-  integrity sha512-sfkiX8ydVekgtDGIfT5AktW3tb8TGUTcfRheEhV4hzxjW+ss4ickq2oTALQ/EdKDN7wh+Xzp+6ICr2OgHJpgJQ==
+nib-converter@2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/nib-converter/-/nib-converter-2.5.3.tgz#12797d409eaf2a284a0359ddb30354fe87e42bcf"
+  integrity sha512-R8tfKQeo4ZAVwpcf3S2V4NWio1qclFiwjSUiSXf1CNCNw2UHuXlDuyfc50XQzHPGcm/YFGpPBlWl3puZvz5Yqg==
   dependencies:
-    nib-schema "^2.4.6"
-    prosemirror-model "^1.10.0"
+    nib-schema "^2.4.7"
 
-nib-core@2.7.11:
-  version "2.7.11"
-  resolved "https://registry.yarnpkg.com/nib-core/-/nib-core-2.7.11.tgz#b22970f02a50f7805baa783aea34aa7544dd2542"
-  integrity sha512-vSlImxAsyk3y31UsEVp8NUV6YvTurdkqMYpOSqvhzPx+H1DV1fq+p8WbxR53Io3Cd8rKV9IIdKTNxJi0zZLmnA==
+nib-core@2.7.16:
+  version "2.7.16"
+  resolved "https://registry.yarnpkg.com/nib-core/-/nib-core-2.7.16.tgz#7d7deeec8782e0c835f94ddd9c4ec8b1a8af1df3"
+  integrity sha512-K+jM3OdXcgYnQkkJqSxSdI/IzyqocE/akC/6xC7H2mwFJRn8+/GStJcI6oD19Q0j92zRENaTvU4wAL2cxO3HRQ==
   dependencies:
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
-    axios "^0.19.0"
+    axios "^0.21.1"
     emotion-theming "^10.0.14"
     nib-embed "2.1.6"
-    nib-schema "2.4.6"
-    nib-ui "2.4.12"
+    nib-schema "2.4.7"
+    nib-ui "2.4.13"
     nib-ui-select "0.0.1"
     prosemirror-commands "^1.1.4"
     prosemirror-history "^1.1.3"
     prosemirror-keymap "^1.1.4"
-    prosemirror-model "^1.10.0"
+    prosemirror-model "^1.12.0"
     prosemirror-schema-list "^1.1.2"
     prosemirror-state "^1.3.3"
     prosemirror-tables "^1.1.0"
@@ -3763,17 +3774,22 @@ nib-markdown-converter@0.1.2:
     axios "^0.19.0"
     markdown-it "10.0.0"
 
-nib-schema@2.4.6, nib-schema@^2.4.6:
-  version "2.4.6"
-  resolved "https://registry.yarnpkg.com/nib-schema/-/nib-schema-2.4.6.tgz#deb6dbaffde44f35ac25e9fc3476961b4ff7735b"
-  integrity sha512-UUqEqyAaUAAo/M5nABm9YctnTZnTNJSskftHcz2uvF7g0i+9kdaCIxT87ved6Z9E0xVRZsH74wgTHfUZoFSc4Q==
+nib-schema@2.4.7, nib-schema@^2.4.7:
+  version "2.4.7"
+  resolved "https://registry.yarnpkg.com/nib-schema/-/nib-schema-2.4.7.tgz#bb0e267b84b6b5514d6443513715c906dd9f5cac"
+  integrity sha512-X6/gXEz0DYi5Tq5zKpnGnk/HUkcUggDN/b948sRCD66tqFbcc5h/A/4oNPvBstTJ9Hm5xU+Jo03HJIM6VE97kQ==
 
-nib-table@0.1.16:
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/nib-table/-/nib-table-0.1.16.tgz#622e909bee7bf195202487a4b010dd5de8db4bcd"
-  integrity sha512-vrjNHUW0kRA6y97ONsm2MN+kcjZe2IXlOWAnYh2mjRrTgD7kXuvQgkVsBRQdAWwAcusVZfoH+S5sgSMNW5dL5A==
+nib-sourceedit@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/nib-sourceedit/-/nib-sourceedit-0.0.1.tgz#216db7c3d669d97ea63595940c9adf328978df1b"
+  integrity sha512-CzsiL212BGUL9z6Angj98ks4YC6seUFuxDDBlBjFQcGe2Qz+xbLpl4I9/KJhTlyR0s5gNnG16mDj/GJTqVZJxQ==
+
+nib-table@0.1.18:
+  version "0.1.18"
+  resolved "https://registry.yarnpkg.com/nib-table/-/nib-table-0.1.18.tgz#c32b80df2815e1bc00de3daf1f58f1b9f1add809"
+  integrity sha512-ziiEsw43Z6Iu2fRI4HhJ4VNE6FEFQPykqynw1CZ9VoSzjbZy3laPeNbC99mgKgd6/DB4Sjp4c8YXjyZbeWvloA==
   dependencies:
-    axios "^0.19.0"
+    prosemirror-utils "^0.9.6"
 
 nib-track@2.5.4:
   version "2.5.4"
@@ -3789,17 +3805,15 @@ nib-ui-select@0.0.1:
   dependencies:
     react-select "^3.0.4"
 
-nib-ui@2.4.12:
-  version "2.4.12"
-  resolved "https://registry.yarnpkg.com/nib-ui/-/nib-ui-2.4.12.tgz#ff35435db6d18ddeb79152fa7a976282287780f9"
-  integrity sha512-6ofKDALKTFbOeXLdT0SRG1nkl3GVgUaHOQB9Ih+OuTwL+NXed6/gjM70bnV7drdWc18o8oG0HILKJHKQQfrxXg==
+nib-ui@2.4.13:
+  version "2.4.13"
+  resolved "https://registry.yarnpkg.com/nib-ui/-/nib-ui-2.4.13.tgz#a597a87de7a5b69f12330a6073082c4eab0e009c"
+  integrity sha512-YmD+3lGGXjA6lkxpqNpTApX4V333zyVVqtIq33bEXgld8x/UtBBM2TVmS2YnovDTfWeqDGyzBt8dPGB8NwuTjg==
 
-nib-video@0.1.16:
-  version "0.1.16"
-  resolved "https://registry.yarnpkg.com/nib-video/-/nib-video-0.1.16.tgz#c814fbbcbf5d097ed9e4067882d3879c67cdc142"
-  integrity sha512-yrS1NEOgvDAGZB3fHntbvGm9rSv9xLacVH9vFDidZEkyO4ynKyiSYbVkavCalpsSkKPcUIgMdyKCZ42AXUTtTA==
-  dependencies:
-    axios "^0.19.0"
+nib-video@0.1.17:
+  version "0.1.17"
+  resolved "https://registry.yarnpkg.com/nib-video/-/nib-video-0.1.17.tgz#b95b3462aeba8893117ed37f65c0a9d1af3752bf"
+  integrity sha512-zBYInpHTplwF2DocL0u4K6wStzw8H5Y9C+hwdMvyVB4HLA+bmGYWOkobz+aJrVxyoLG8uV2KkLK4gpgzhO9eAw==
 
 node-fetch@2.6.0:
   version "2.6.0"
@@ -4549,10 +4563,17 @@ prosemirror-keymap@^1.1.2, prosemirror-keymap@^1.1.4:
     prosemirror-state "^1.0.0"
     w3c-keyname "^2.2.0"
 
-prosemirror-model@^1.0.0, prosemirror-model@^1.1.0, prosemirror-model@^1.10.0, prosemirror-model@^1.8.1:
+prosemirror-model@^1.0.0, prosemirror-model@^1.1.0, prosemirror-model@^1.8.1:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/prosemirror-model/-/prosemirror-model-1.10.0.tgz#bb1101732bccacf336e23a36a8b045b865025fa2"
   integrity sha512-xTMbbO2q4abs5lJdeRvk/SrftNfZlMdvChKziTiK+OKtP8LkQI8uw39u4S5zqyflrmW3Or6+qnyFPf1p4v2u1g==
+  dependencies:
+    orderedmap "^1.1.0"
+
+prosemirror-model@^1.12.0:
+  version "1.13.3"
+  resolved "https://registry.yarnpkg.com/prosemirror-model/-/prosemirror-model-1.13.3.tgz#3ccfde73b9c9e706933c72bdf7462906509ff1c9"
+  integrity sha512-wujIYYQEcxdkbKmIJiekVjqtylKxuoEcc+w2PnN7Itc58m/75J4rCUz2dibygVQJFi3gZrD2DNFLjOS6LP4w1g==
   dependencies:
     orderedmap "^1.1.0"
 
