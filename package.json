@@ -9,7 +9,7 @@
     "export": "next export"
   },
   "dependencies": {
-    "next": "9.3.5",
+    "next": "11.1.0",
     "nib-advance-image": "0.1.21",
     "nib-collab-client": "0.2.4",
     "nib-comment": "2.6.3",
